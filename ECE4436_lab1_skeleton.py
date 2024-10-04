@@ -49,8 +49,8 @@ context = ssl.create_default_context()
 secureSocket = context.wrap_socket(clientSocket, server_hostname='smtp.gmail.com')
 
 # Authentication (fill in with valid email and password)
-email_address = 'jakekot666@gmail.com'
-password = '961218-Klbb'
+email_address = ' '
+password = ' '
 
 authCommand = f'AUTH LOGIN\r\n'
 secureSocket.send(authCommand.encode())
